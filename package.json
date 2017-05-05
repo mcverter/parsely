@@ -1,0 +1,47 @@
+{
+  "name": "parsely",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.1.1",
+    "leaflet": "^1.0.2",
+    "leaflet-geocoder-mapzen": "^1.7.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "object-assign": "4.1.0",
+    "react": "^15.4.1",
+    "react-addons-create-fragment": "^15.4.2",
+    "react-big-calendar": "^0.11.1",
+    "react-bootstrap": "^0.30.10",
+    "react-bootstrap-time-picker": "^1.0.1",
+    "react-datetime": "^2.8.6",
+    "react-dom": "^15.4.1",
+    "react-leaflet": "^1.0.0-rc.3",
+    "react-modal": "^1.6.5",
+    "react-paginate": "^4.1.1",
+    "react-rating": "^0.6.5",
+    "react-redux": "5.0.1",
+    "react-router": "3.0.0",
+    "react-router-bootstrap": "^0.23.1",
+    "react-router-redux": "4.0.7",
+    "react-select": "^1.0.0-rc.2",
+    "redux": "3.6.0",
+    "redux-form": "^6.4.3",
+    "redux-thunk": "2.1.0",
+    "rrule": "^2.1.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
