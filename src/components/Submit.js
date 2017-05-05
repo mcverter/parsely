@@ -34,7 +34,6 @@ Submit = reduxForm({
 const selector = formValueSelector('ingestWizard');
 Submit = connect(
     state => {
-        debugger;
         const { demographic, checklist, shortAnswer, family } =
             selector(state, 'demographic', 'checklist', 'shortAnswer', 'family');
         return {
